@@ -35,3 +35,8 @@ Cú pháp:
     }
     + tạo thành viên static
     + chạy trước main 
+7/10/2020:
+if/if...else
+switch case (có break và ko có break)
+do...while: làm trước mới kiểm tra (ít nhất 1 lệnh được làm)
+break continue

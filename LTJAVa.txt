@@ -1,0 +1,37 @@
+23/9/2020
+coi lại biên dịch thông dịch java
+static  : cấp phát vùng nhớ 1 lần (biến dùng chung) tiết kiệm
+private : chỉ thành viên trong lớp đc dùng
+default (không ghi gì): dùng đc trong lớp và package
+protected   : trong lớp, trong package, ngoài package mang tính kế thừa được dùng
+public      : chỗ nào cũng dùng đc
+30/9/2020
+Overload (nạp chồng): Cùng trong 1 lớp, cùng tên, khác nhau danh sách tham số
+Overriding (Ghi đè) : Có mặt trong lớp cha cũng như kế thừa, được định nghĩa lại trong lớp kế thừa
+*dẫn xuất*
+*static(tĩnh): biến, phương thức, khối lệnh, lớp
+- dùng để quản lý bộ nhớ
+- thuộc về lớp chứ ko thuộc về instance (thể hiện) của lớp (không cần tạo đối tượng để chạy phương thức static)
+Biến static:
+    + biến tĩnh
+    + sử dụng để tham chiếu thuộc tính chung của tất cả đối tượng
+    + VD: tên công ty, têm trg
+    + cấp phát vùng nhớ 1 lần
+    + không cần đưa vào hàm dựng
+Phương thức static:
+    + phương thức thuộc lớp chứ ko phải đối tượng của lớp
+    + không cần tạo instance của lớp
+    + phương thức static có thể truy cập biến static và thay đổi giá trị của biến static
+    + phương thức static không được phép truy cập tới biến non-static
+    + phương thức non-static thì có thể truy cập biến static
+    + phương thức main bắt buộc phải là static vì ctr chạy từ main
+    + 'this' và 'super' không thể được sử dụng trong ngữ cảnh static
+Khối lệnh static:
+Cú pháp:
+    static {
+        -
+        -
+        -
+    }
+    + tạo thành viên static
+    + chạy trước main 

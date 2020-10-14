@@ -5,6 +5,8 @@ private : chỉ thành viên trong lớp đc dùng
 default (không ghi gì): dùng đc trong lớp và package
 protected   : trong lớp, trong package, ngoài package mang tính kế thừa được dùng
 public      : chỗ nào cũng dùng đc
+
+
 30/9/2020
 Overload (nạp chồng): Cùng trong 1 lớp, cùng tên, khác nhau danh sách tham số
 Overriding (Ghi đè) : Có mặt trong lớp cha cũng như kế thừa, được định nghĩa lại trong lớp kế thừa
@@ -35,8 +37,38 @@ Cú pháp:
     }
     + tạo thành viên static
     + chạy trước main 
+
+
 7/10/2020:
 if/if...else
 switch case (có break và ko có break)
 do...while: làm trước mới kiểm tra (ít nhất 1 lệnh được làm)
 break continue
+
+14/10/2020: package & interfaces
+Trong 1 package chưa nhiều lớp
+Phương thức trừu tượng : chỉ có phần khai báo
+Lớp trừu tượng: chứa phương thức trừu tượng
+Interface: lớp trừu tượng thuần túy (chỉ chứa phương thức trừu tượng)
+Vd: int là kiểu dữ liệu còn Integer là lớp
+Lớp StringTokenizer: xử lý chuỗi
+Tách chuỗi ban đầu thành nhiều chuỗi con
+Exception
+Tránh chương trình dừng 1 cách đột ngột
+Lớp throwable mà Java cung cấp là lớp trên nhất của lớp biệt lệ
+Mô hình xử lý biệt lệ:
+try
+catch
+throw
+throws
+finally
+Cú pháp:
+try(...)
+catch(Exception e1) {...}
+catch(Exception e2) {...}
+catch(Exception eN) {...}
+finally {...} //dọn dẹp và thu hồi vùng nhớ, đóng file, CSDL an toàn
+
+AWT+Swing
+Frames - Panels
+Nút Radio (chỉ chọn được 1): tạo đối tượng CheckBoxGroup

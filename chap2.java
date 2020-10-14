@@ -166,6 +166,7 @@ public class chap2 {
         if(fib==k) return dem;
         else return 0;
     }
+    
     public static void main (String[] args){
         chap2 a = new chap2 ();
         System.out.println("Cau 1: "+a.cau1(10));

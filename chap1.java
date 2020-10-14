@@ -24,7 +24,7 @@ public class chap1 {
             if (b==0) System.out.println("Pt "+a+"x+"+b+"=0 luon dung");
             else System.out.println("Pt "+a+"x+"+b+"=0 vo nghiem");
         }
-        else System.out.println("Nghiem cua pt "+a+"x+"+b+"=0 la: "+((double)b/a));
+        else System.out.println("Nghiem cua pt "+a+"x+"+b+"=0 la: "+((double)(-b)/a));
     }
     public void PtBac2(){
         double a,b,c;
@@ -92,7 +92,7 @@ public class chap1 {
         System.out.print("Gio ket thuc: "); b=sc.nextInt();
         } while(a<0&&a>24||b<0&&b>24||a>b);
         if (b>=18) price=60000*(b-a);
-        else price=45000*(b-a); 
+        else price=45000*(b-a);
         System.out.println("Gia dich vu: "+price+" VND");
     }
     public int DayOfMonth(int month, int year){

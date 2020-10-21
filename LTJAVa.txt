@@ -72,3 +72,19 @@ finally {...} //dọn dẹp và thu hồi vùng nhớ, đóng file, CSDL an toà
 AWT+Swing
 Frames - Panels
 Nút Radio (chỉ chọn được 1): tạo đối tượng CheckBoxGroup
+
+21/10/2020
+*Layout*
+Flow Layout: bố trí từ góc trên bên trái canh giữa
+Border Layout: Đông-Tây-Nam-Bắc-Trung tâm
+Card Layout: thẻ bài, áp dụng cho panel
+Grid Layout: ô lưới hcn (dòng-cột) - mỗi đối tượng 1 ô
+GridBag Layout: giống Grid nhưng 1 đối tượng có thể chiếm nhiều ô
+muốn dùng thì setLayout();
+*Xử lý sự kiện*
+4 bước cơ bản:
+- Cài đặt lắng nghe (Listener) tương ứng
+- Nhận diện tất cả các thành phần tạo sự kiện
+- Nhận diện các sự kiện đc xử lý
+- Cài đặt các phương thức Listener tương ứng
+

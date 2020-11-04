@@ -88,3 +88,10 @@ muốn dùng thì setLayout();
 - Nhận diện các sự kiện đc xử lý
 - Cài đặt các phương thức Listener tương ứng
 
+4/11/2020: Lập trình các luồng vào ra 
+*Luồng hướng Byte: 1 kí tự ~ 8 bit 
++Input Stream/Output Stream
+*Luồng hướng char(ký tự): 1 kí tự ~ 16 bit
++Reader/Writer
+DataInputStream/DataOutputStream
+Từ System.in -> Tạo đường ống vào LV -> Tạo vùng đẹm BR -> đọc cho các biến chương trình
